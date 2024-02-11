@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 langs = ["de", "es", "fr", "it", "nl", "pl", "pt", "fi", "ar", "bg", "cz", "dk", "ee", 
          "el", "hr", "hu", "jp", "no", "ru", "sr", "se", "te", "tr", "ve", "cn"]
 
-# TODO: don't define a range, break loop when there are no more pages
 for lang in langs:
     userid_dict = {}
     usernames_dict = {}
