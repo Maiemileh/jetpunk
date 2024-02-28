@@ -10,7 +10,6 @@ for lang in langs:
     userid_dict = {}
     usernames_dict = {}
     for i in range(1000):
-        print(i)
         index = i+1
 
         # Construct the URL
